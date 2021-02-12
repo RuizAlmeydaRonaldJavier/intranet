@@ -1,0 +1,62 @@
+/* BEGIN: MESA DE PARTES VIRTUAL */
+.camposRequeridos
+{
+	color: red !important;
+}
+
+/* END: MESA DE PARTES VIRTUAL */
+
+
+/* BEGIN: IMPUESTO PREDIAL */
+/* Reajuste del encabezado */
+.encabezado
+{
+	text-align: center !important;
+	font-weight: bold !important;
+	font-size: 24px !important;
+}
+
+/* Cambio de color de selección de los taps */
+.tabs .tab a:focus, .tabs .tab a:focus.active
+{
+	background-color: #686e6fc9 !important;
+}
+
+/* Reajuste del padding de los taps */
+.paddingTaps
+{
+	padding-top: 18px !important;
+  padding-left: 28px !important;
+  padding-right: 28px !important;
+}
+
+/* Color de fondo a las celdas del impuesto Predial */
+#tablaImpuestoPredial th
+{
+	background-color: #85a1bd !important;
+	color: black !important;
+}
+
+/* Reajuste del padding a las tablas */
+table.bordered td, table.bordered th
+{
+  padding: 10px !important;
+}
+
+/* */
+#tablaImpuestoPredial td
+{
+	border: 1px solid black !important;
+}
+
+#tablaImpuestoPredial th
+{
+	border: 1px solid black !important;
+}
+
+
+/* END: IMPUESTO PREDIAL */
+
+.negrita {
+  font-weight: bold !important;
+}
